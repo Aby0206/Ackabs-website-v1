@@ -1,0 +1,29 @@
+import React from 'react';
+import { Suspense } from 'react';
+import { Canvas } from 'react-three-fiber';
+import { useGLTF, OrbitControls, Preload } from '@react-three/drei';
+
+const Computers = () => {
+  const { scene } = useGLTF("./desktop_pc/scene.gltf");
+
+  return (
+    <group>
+      <hemisphereLight intensity={0.15} groundColor="black" />
+      <pointLight intensity={1} />
+      <primitive object={scene} />
+    </group>
+  );
+};
+
+const ComputersCanvas = () => {
+  return (
+    <Canvas>
+      <Suspense fallback={null}>
+        <Computers />
+        <OrbitControls />
+      </Suspense>
+    </Canvas>
+  );
+};
+
+export default ComputersCanvas;
