@@ -27,7 +27,7 @@ const Contact = () => {
     setLoading(true);
 
   //0dNEL6AxQH9rvmSUE
-  //template_o23oehu
+  //template_o23oehu    ***emailjs IDs
   //service_byq4vwk
 
 
