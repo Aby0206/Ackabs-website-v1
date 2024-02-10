@@ -1,17 +1,12 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 // import { ComputersCanvas } from "./canvas";
-
+import stylescss from './styles.module.css';
 const Hero = () => {
-  const style_mob = {
-    padding: '20px',
-    '@media (maxWidth: 768px)':{
-      paddingTop:'50px',
-    }
-  };
+  
   return (
     <section className="relative w-full h-screen mx-auto">
-      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}>
+      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5 ${stylescss.hero}`}>
         <div className="flex flex-col justify-center items-center mt-5">
 
           <br />

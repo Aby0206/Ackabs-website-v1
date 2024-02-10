@@ -1,0 +1,10 @@
+/* // styles.module.css */
+.hero {
+  /* other styles */
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-top: -8rem;
+  }
+}
