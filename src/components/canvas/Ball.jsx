@@ -35,9 +35,6 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return(
     <ErrorBoundary>
-      <br />
-      {icon}
-      <br />
       <Canvas
         frameloop="demand"
         gl={{ preserveDrawingBuffer: true}}
