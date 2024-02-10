@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import favicon from "./favicon.ico";
 import Ackabslogov1 from "./Ackabslogov1.svg";
 import logoackbs from "./logoackbs.svg"
 import backend from "./backend.png";
@@ -34,6 +35,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  favicon,
   Ackabslogov1,
   logoackbs,
   backend,
