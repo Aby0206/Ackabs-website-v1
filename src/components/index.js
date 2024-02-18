@@ -7,7 +7,7 @@ import Team from './Team';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
-import Footer from './Footer';
+import Footer from './Footer/Footer';
 
 export {
   Hero,

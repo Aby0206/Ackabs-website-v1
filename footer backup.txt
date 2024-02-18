@@ -1,0 +1,31 @@
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+const Footer = () => {
+  return (
+    <footer style={{ backgroundColor: '#100D25', color: '#fff', padding: '20px', textAlign: 'center' }}>
+      <p>Contact us: connect@ackabs.com | Phone: (+91) 9207390923</p>
+      <p>&copy; 2024 Ackabs Designs & Developments. All rights reserved.</p>
+
+    <ul className="list-none p-0 m-0 float-right" style={{ marginBottom: '-20px' }}>
+
+    <li className="inline-block mr-4">
+    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+      <FontAwesomeIcon icon={faLinkedin} className="text-blue-500 text-xl" />
+    </a>
+  </li>
+
+  <li className="inline-block mr-4">
+    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+      <FontAwesomeIcon icon={faInstagram} className="text-pink-500 text-xl" />
+    </a>
+  </li>
+  
+</ul>
+
+    </footer>
+  );
+};
+
+export default Footer;

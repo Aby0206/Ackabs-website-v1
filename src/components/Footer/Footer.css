@@ -1,0 +1,32 @@
+.footer {
+    background-color: #100D25;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -38px;
+  }
+  
+  .social-icons li {
+    margin-left: 1rem;
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  
+  .linkedin-icon {
+    color: #0077b5; /* LinkedIn blue */
+  }
+  
+  .instagram-icon {
+    color: #e4405f; /* Instagram pink */
+  }
+  

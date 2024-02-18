@@ -26,7 +26,7 @@ const Hero = () => {
           <br />
           <p className={`${styles.heroSubText} mt-2 text-yellow-100`}>
             Workspace for Next Generation <br className="sm:block hidden" />
-            Mobile & Web Applications.
+            Bussiness Solutions & Web Applications.
           </p>
         </div>
 
