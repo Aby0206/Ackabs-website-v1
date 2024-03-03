@@ -29,4 +29,11 @@
   .instagram-icon {
     color: #e4405f; /* Instagram pink */
   }
-  
+  .hideme{
+    display: none;
+  }
+  @media only screen and (max-width: 600px){
+    .hidemobile{
+      display: none;
+    }
+  }

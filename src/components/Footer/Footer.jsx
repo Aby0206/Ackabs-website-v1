@@ -9,8 +9,8 @@ const Footer = () => {
       <p>Contact us: connect@ackabs.com | Phone: (+91) 9207390923</p>
       <p>&copy; 2024 Ackabs Designs & Developments. All rights reserved.</p>
 
-      <ul className="social-icons">
-        <li>
+      <ul className="social-icons hidemobile">
+        <li className="hideme">
           <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="icon linkedin-icon" />
           </a>
